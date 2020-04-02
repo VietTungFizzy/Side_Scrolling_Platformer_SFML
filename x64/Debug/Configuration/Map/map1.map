@@ -1,0 +1,26 @@
+|
+|Background | name
+BACKGROUND Background
+|
+|Size | max x | max y
+SIZE 64 64
+|
+|Next map | name
+NEXTMAP map2.map
+|
+|Default friction | x | y
+DEFAULT_FRICTION 0.8 0.0
+|
+|Tile | id | x | y
+TILE 1 0 21
+TILE 0 1 21
+TILE 0 2 21
+TILE 0 3 21
+TILE 0 4 21
+TILE 0 5 21
+TILE 0 6 21
+TILE 0 7 21
+TILE 3 8 21
+TILE 12 9 21
+TILE 12 10 21
+TILE 14 11 21
