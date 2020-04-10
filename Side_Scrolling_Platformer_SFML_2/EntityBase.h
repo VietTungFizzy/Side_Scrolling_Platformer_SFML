@@ -1,5 +1,6 @@
 #pragma once
 #include"Map.h"
+#include"Direction.h"
 
 struct CollisionElement
 {
@@ -11,10 +12,10 @@ struct CollisionElement
 };
 using Collisions = std::vector<CollisionElement>;
 
-enum class EntityType {Base, Enemy, Player}
+enum class EntityType { Base, Enemy, Player };
 enum class EntityState {
 	Idle, Walking, Jumping, Attacking, Hurt, Dying
-}
+};
 class EntityManager;
 class EntityBase{
 	friend class EntityManager;
