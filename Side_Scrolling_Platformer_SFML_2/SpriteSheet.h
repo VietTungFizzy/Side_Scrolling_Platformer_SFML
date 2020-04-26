@@ -1,4 +1,4 @@
-#include"SharedContex.h"
+#include"SharedContext.h"
 #include"Direction.h"
 
 class SpriteSheet

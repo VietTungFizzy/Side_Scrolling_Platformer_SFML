@@ -1,27 +1,2 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(399,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build.
-  Game.cpp
-  Main.cpp
-  Map.cpp
-d:\exercise\side_scrolling_platformer_sfml_2\side_scrolling_platformer_sfml_2\map.cpp(45): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
-          with
-          [
-              T=int
-          ]
-d:\exercise\side_scrolling_platformer_sfml_2\side_scrolling_platformer_sfml_2\map.cpp(46): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
-          with
-          [
-              T=int
-          ]
-d:\exercise\side_scrolling_platformer_sfml_2\side_scrolling_platformer_sfml_2\map.cpp(58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-d:\exercise\side_scrolling_platformer_sfml_2\side_scrolling_platformer_sfml_2\map.cpp(103): warning C4244: 'initializing': conversion from 'T' to 'unsigned int', possible loss of data
-          with
-          [
-              T=float
-          ]
-d:\exercise\side_scrolling_platformer_sfml_2\side_scrolling_platformer_sfml_2\map.cpp(161): warning C4244: 'initializing': conversion from 'T' to 'unsigned int', possible loss of data
-          with
-          [
-              T=float
-          ]
-  Generating Code...
   Side_Scrolling_Platformer_SFML_2.vcxproj -> D:\Exercise\Side_Scrolling_Platformer_SFML_2\x64\Debug\Side_Scrolling_Platformer_SFML_2.exe

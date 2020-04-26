@@ -46,6 +46,9 @@
     <Filter Include="Source Files\System Extension\Manager">
       <UniqueIdentifier>{56a9e8d0-cdad-453a-812b-407bad354847}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\System Extension\Graphic">
+      <UniqueIdentifier>{cec38db2-0ee8-4377-beb7-20c2517f3106}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -106,6 +109,12 @@
     </ClInclude>
     <ClInclude Include="StateManager.h">
       <Filter>Header Files\System Extension\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Header Files\System Extension\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\System Extension\Entity</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
