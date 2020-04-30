@@ -49,6 +49,9 @@
     <Filter Include="Header Files\System Extension\Graphic">
       <UniqueIdentifier>{cec38db2-0ee8-4377-beb7-20c2517f3106}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\System Extension\Graphic">
+      <UniqueIdentifier>{970a232a-89e2-4890-be7c-4cf663c68373}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -71,6 +74,15 @@
     </ClCompile>
     <ClCompile Include="StateManager.cpp">
       <Filter>Source Files\System Extension\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Source Files\System Extension\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim_Base.cpp">
+      <Filter>Source Files\System Extension\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Anim_Directional.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +127,12 @@
     </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Header Files\System Extension\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Anim_Base.h">
+      <Filter>Header Files\System Extension\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Anim_Directional.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

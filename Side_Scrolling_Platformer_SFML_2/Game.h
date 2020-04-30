@@ -3,6 +3,7 @@
 #include"SharedContext.h"
 #include"TextureManager.h"
 #include"Map.h"
+#include"SpriteSheet.h"
 
 #define FRAME_RATE 1.0f / 60.0f
 class Game
@@ -23,6 +24,7 @@ private:
 	Map * m_map;
 	StateManager m_StateMgr;
 	SharedContex m_Context;
+
 	Window * m_window;
 	sf::Time m_time;
 	sf::Clock m_clock;

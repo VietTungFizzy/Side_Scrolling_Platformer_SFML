@@ -12,6 +12,7 @@ Game::Game() : m_clock(), m_StateMgr(&m_Context)
 	
 	m_map->LoadTile("Configuration/tile.cfg");
 	m_map->LoadMap("Configuration/Map/map1.map");	
+
 }
 
 
@@ -22,9 +23,10 @@ Game::~Game()
 void Game::Render()
 {
 	m_window->BeginDraw();
-	
+
 	m_StateMgr.Render();
 	m_Context.m_Map->Draw();
+	
 
 	m_window->EndDraw();
 }

@@ -18,6 +18,7 @@ private: //Data members
 	Animations m_animations;
 	Anim_Base * m_animationCurrent;
 	*/
+public:
 
 public: // Inteface functions
 	SpriteSheet(TextureManager * l_textureMgr);
@@ -27,6 +28,11 @@ public: // Inteface functions
 	bool LoadSheet(const std::string & l_file);
 	void ReleaseSheet();
 
+	void SetSpriteSize(const sf::Vector2i & l_size);
+	sf::Vector2i GetSpriteSize();
+	void SetSpritePosition(const sf::Vector2f & l_pos);
+	void SetDirection(const Direction & l_dir);
+	Direction GetDirection();
 	//Not needed yet
 	/*
 	Anim_Base * GetCurrentAnim();

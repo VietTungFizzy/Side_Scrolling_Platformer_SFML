@@ -1,0 +1,5 @@
+TEXTURE Character
+SIZE 16 24
+SCALE 1.0 1.0
+|
+ANIMATION_TYPE Directional
