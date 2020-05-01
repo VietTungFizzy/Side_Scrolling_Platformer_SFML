@@ -1,4 +1,4 @@
 
 enum class Direction {
-	Left, Right, Up, Down
+	Right,Left, Up, Down
 };

@@ -1,8 +1,9 @@
 #include"SpriteSheet.h"
+#include"Anim_Directional.h"
 
 SpriteSheet::SpriteSheet(TextureManager * l_textureMgr) : 
 	m_textureMgr(l_textureMgr), m_SpriteScale(1.f,1.f),
-	m_direction(Direction::Right)/*,m_animationCurrent(nullptr)*/
+	m_direction(Direction::Right),m_animationCurrent(nullptr)
 {
 }
 
@@ -67,7 +68,34 @@ bool SpriteSheet::LoadSheet(const std::string & l_file)
 		}
 		else if (type == "ANIMATION")
 		{
+			std::string name;
+			keystream >> name;
+			if (m_animations.find(name) != m_animations.end())
+			{
+				std::cout << "! Duplicate animation: " << name << std::endl;
+				continue;
+			}
 
+			Anim_Base * newAnimation = nullptr;
+			if (m_animationType == "Directional")
+			{
+				newAnimation = new Anim_Directional();
+			}
+			else
+			{
+				std::cout << "! Unknown animation type: " << m_animationType << std::endl;
+				keystream;
+			}
+			keystream >> *newAnimation;
+			newAnimation->SetSpriteSheet(this);
+			newAnimation->m_name = name;
+			newAnimation->Reset();
+
+			m_animations.emplace(name, newAnimation);
+
+			if (m_animationCurrent) continue;
+			m_animationCurrent = newAnimation;
+			m_animationCurrent->Play();
 		}
 	}
 	std::cout << "Load success!!!!" << std::endl;
@@ -76,13 +104,13 @@ bool SpriteSheet::LoadSheet(const std::string & l_file)
 void SpriteSheet::ReleaseSheet()
 {
 	m_textureMgr->ReleaseResource(m_textureName);
-	//m_animationCurrent = nullptr;
-	/*while(m_animations.begin() != m_animations.end())
+	m_animationCurrent = nullptr;
+	while(m_animations.begin() != m_animations.end())
 	{
 		delete m_animations.begin()->second;
 		m_animations.erase(m_animations.begin());
 	}
-	*/
+	
 }
 
 void SpriteSheet::SetSpriteSize(const sf::Vector2i & l_size)
@@ -105,7 +133,7 @@ void SpriteSheet::SetDirection(const Direction & l_dir)
 {
 	if (l_dir == m_direction) return;
 	m_direction = l_dir;
-	//m_animationCurrent->CropSprite();
+	m_animationCurrent->CropSprite();
 }
 
 Direction SpriteSheet::GetDirection()
@@ -113,9 +141,26 @@ Direction SpriteSheet::GetDirection()
 	return m_direction;
 }
 
+Anim_Base * SpriteSheet::GetCurrentAnim()
+{
+	return m_animationCurrent;
+}
+
+bool SpriteSheet::SetAnimation(const std::string & l_name, const bool & l_play, const bool & l_loop)
+{
+	std::unordered_map<std::string, Anim_Base*>::iterator itr = m_animations.find(l_name);
+	if (itr == m_animations.end()) return false;
+	if (itr->second == m_animationCurrent) return false;
+	if (m_animationCurrent) m_animationCurrent->Stop();
+	m_animationCurrent->SetLoop(l_loop);
+	if (l_play) m_animationCurrent->Play();
+	m_animationCurrent->CropSprite();
+	return true;
+}
+
 void SpriteSheet::Update(float l_dt)
 {
-	//m_animationCurrent->Update(l_dt);
+	m_animationCurrent->Update(l_dt);
 }
 
 void SpriteSheet::Draw(sf::RenderWindow * l_wind)

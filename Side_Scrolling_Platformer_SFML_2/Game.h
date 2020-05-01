@@ -20,6 +20,8 @@ public:
 	Window * GetWindow() { return m_window; }
 	sf::Time GetElaspedTime() { return m_time; }
 private:
+	//Test
+	SpriteSheet * t;
 
 	Map * m_map;
 	StateManager m_StateMgr;

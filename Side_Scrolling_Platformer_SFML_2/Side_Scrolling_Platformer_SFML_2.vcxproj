@@ -143,6 +143,7 @@
     <ClInclude Include="Anim_Base.h" />
     <ClInclude Include="Anim_Directional.h" />
     <ClInclude Include="BaseState.h" />
+    <ClInclude Include="Direction.h" />
     <ClInclude Include="EntityBase.h" />
     <ClInclude Include="EntityManager.h" />
     <ClInclude Include="EventManager.h" />

@@ -70,3 +70,9 @@ bool Anim_Base::IsInAction()
 	bool isWithinRanged = (m_frameCurrent <= m_frameActionEnd && m_frameCurrent >= m_frameActionStart);
 	return isWithinRanged;
 }
+
+void Anim_Base::SetLoop(const bool & l_loop)
+{
+	m_loop = l_loop;
+}
+

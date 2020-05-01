@@ -132,7 +132,10 @@
       <Filter>Header Files\System Extension\Graphic</Filter>
     </ClInclude>
     <ClInclude Include="Anim_Directional.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\System Extension\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.h">
+      <Filter>Header Files\System Extension</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

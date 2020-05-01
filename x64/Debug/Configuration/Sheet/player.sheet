@@ -1,5 +1,6 @@
 TEXTURE Character
 SIZE 16 24
-SCALE 1.0 1.0
-|
+SCALE 2.0 2.0
 ANIMATION_TYPE Directional
+|Type|Name|Start Frame | End Frame | Row | FrameTime | Frame Action start | Frame Action End
+ANIMATION walk 0 3 0 10000 -1 -1

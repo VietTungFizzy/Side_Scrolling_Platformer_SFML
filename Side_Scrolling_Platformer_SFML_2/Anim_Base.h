@@ -18,8 +18,11 @@ protected:
 	float m_elapsedTime;
 	bool m_loop;
 	bool m_play;
-	std::string m_name;
 	SpriteSheet * m_spriteSheet;
+
+public:
+	std::string m_name;
+
 protected:
 	virtual void FrameStep() = 0;
 	virtual void CropSprite() = 0;
@@ -45,5 +48,6 @@ public:
 	void SetSpriteSheet(SpriteSheet * l_sheet);
 	void SetFrame(const unsigned int & l_frame);
 	bool IsInAction();
+	void SetLoop(const bool & l_loop);
 };
 

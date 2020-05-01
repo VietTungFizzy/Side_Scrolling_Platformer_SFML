@@ -12,7 +12,12 @@ Game::Game() : m_clock(), m_StateMgr(&m_Context)
 	
 	m_map->LoadTile("Configuration/tile.cfg");
 	m_map->LoadMap("Configuration/Map/map1.map");	
-
+	
+	t = new SpriteSheet(m_StateMgr.GetSharedContext()->m_TextureManager);
+	t->LoadSheet("Configuration/Sheet/player.sheet");
+	t->GetCurrentAnim()->SetLoop(true);
+	t->SetDirection(Direction::Right);
+	t->SetSpritePosition(sf::Vector2f(120.f, 120.f));
 }
 
 
@@ -24,8 +29,9 @@ void Game::Render()
 {
 	m_window->BeginDraw();
 
+	t->Draw(m_window->GetWindowRender());
 	m_StateMgr.Render();
-	m_Context.m_Map->Draw();
+	//m_Context.m_Map->Draw();
 	
 
 	m_window->EndDraw();
@@ -38,6 +44,7 @@ void Game::Update()
 		m_window->ProcessEvent();
 		m_StateMgr.Update(m_time);
 		m_Context.m_Map->Update(m_time.asSeconds());
+		t->Update(m_time.asSeconds());
 		m_time -= sf::seconds(FRAME_RATE);
 	}
 	

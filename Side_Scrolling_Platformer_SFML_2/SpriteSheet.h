@@ -1,6 +1,8 @@
 #include"SharedContext.h"
 #include"Direction.h"
+#include"Anim_Base.h"
 
+using Animations = std::unordered_map<std::string, Anim_Base*>;
 class SpriteSheet
 {
 private: //Data members
@@ -12,12 +14,10 @@ private: //Data members
 	std::string m_animationType;
 	TextureManager * m_textureMgr;
 	
-	// Not needed yet
 
-	/*
 	Animations m_animations;
 	Anim_Base * m_animationCurrent;
-	*/
+
 public:
 
 public: // Inteface functions
@@ -33,13 +33,11 @@ public: // Inteface functions
 	void SetSpritePosition(const sf::Vector2f & l_pos);
 	void SetDirection(const Direction & l_dir);
 	Direction GetDirection();
-	//Not needed yet
-	/*
+	
 	Anim_Base * GetCurrentAnim();
 	bool SetAnimation(const std::string  & l_name,
-					const bool & l_play = false,
-					const bool & l_loop = false)
-	*/
+		const bool & l_play = false,
+		const bool & l_loop = false);
 
 	void Update(float l_dt);
 	void Draw(sf::RenderWindow * l_wind);
