@@ -52,6 +52,9 @@
     <Filter Include="Source Files\System Extension\Graphic">
       <UniqueIdentifier>{970a232a-89e2-4890-be7c-4cf663c68373}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\System Extension\Entity">
+      <UniqueIdentifier>{cd91b763-424d-4934-9508-a7b3957e56f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -81,8 +84,14 @@
     <ClCompile Include="Anim_Base.cpp">
       <Filter>Source Files\System Extension\Graphic</Filter>
     </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\System Extension\Entity</Filter>
+    </ClCompile>
     <ClCompile Include="Anim_Directional.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\System Extension\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBase.cpp">
+      <Filter>Source Files\System Extension\Entity</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

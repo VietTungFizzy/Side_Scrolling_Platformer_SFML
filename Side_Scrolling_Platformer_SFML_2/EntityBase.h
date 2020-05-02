@@ -1,6 +1,7 @@
 #pragma once
 #include"Map.h"
 #include"Direction.h"
+#include"SpriteSheet.h"
 
 struct CollisionElement
 {

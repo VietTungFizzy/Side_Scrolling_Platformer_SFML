@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\third_party_lib\SFML-2.5.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\third_party_lib\SFML-2.5.1\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\third-library\SFML-2.5.1-windows-vc15-64-bit\SFML-2.5.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\third-library\SFML-2.5.1-windows-vc15-64-bit\SFML-2.5.1;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>D:\third_party_lib\SFML-2.5.1\include;$(IncludePath)</IncludePath>
@@ -131,6 +131,8 @@
     <ClCompile Include="Anim_Base.cpp" />
     <ClCompile Include="Anim_Directional.cpp" />
     <ClCompile Include="BaseState.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="EntityBase.cpp" />
     <ClCompile Include="EventManager.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main.cpp" />
