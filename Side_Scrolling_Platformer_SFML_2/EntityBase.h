@@ -24,7 +24,10 @@ public:
 	EntityBase(EntityManager * l_entityMgr);
 	virtual ~EntityBase();
 	//Getter and setter
-
+	void SetPosition(const float & l_x, const float & l_y);
+	void SetPosition(const sf::Vector2f & l_pos);
+	void SetSize(const float & l_x, const float & l_y);
+	void SetState(const EntityState & l_state);
 	//other function
 	void Move(float l_x, float l_y);
 	void AddVelocity(float l_x, float l_y);

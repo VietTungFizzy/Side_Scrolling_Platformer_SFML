@@ -58,6 +58,9 @@ public:
 	void LoadMap(const std::string & l_path);
 	void LoadTile(const std::string & l_path);
 	void LoadNext();
+
+	//Getter and Setter
+	sf::Vector2u GetMapSize();
 private:
 	Tile * GetTile(const unsigned int & x, const unsigned int & y);
 	void PurgeMap();
@@ -69,7 +72,7 @@ private:
 	sf::Sprite m_background;
 	float m_gravity;
 	sf::Vector2f m_friction;
-	sf::Vector2f m_mapSize;
+	sf::Vector2u m_mapSize;
 	std::string m_nextMapName;
 	std::string m_backgroundTexture;
 	std::string m_tileName;

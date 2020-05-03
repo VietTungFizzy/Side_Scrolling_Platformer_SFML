@@ -139,7 +139,7 @@ void Map::LoadMap(const std::string & l_path)
 			float x, y;
 			keystream >> x >> y;
 			if (x <= 0 || y <= 0) continue;
-			m_mapSize = sf::Vector2f(x, y);
+			m_mapSize = sf::Vector2u(x, y);
 		}
 		else if (type == "NEXTMAP")
 		{
@@ -154,6 +154,11 @@ void Map::LoadMap(const std::string & l_path)
 			keystream >> m_defaultTile.m_friction.x >> m_defaultTile.m_friction.y;
 		}
 	}
+}
+
+sf::Vector2u Map::GetMapSize()
+{
+	return m_mapSize;
 }
 
 Tile * Map::GetTile(const unsigned int & x, const unsigned int & y)
