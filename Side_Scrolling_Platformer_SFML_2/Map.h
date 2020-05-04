@@ -61,8 +61,11 @@ public:
 
 	//Getter and Setter
 	sf::Vector2u GetMapSize();
-private:
+	float GetGravity();
+	TileInfo * GetDefaultTile();
 	Tile * GetTile(const unsigned int & x, const unsigned int & y);
+
+private:
 	void PurgeMap();
 	void PurgeTileSet();
 private:

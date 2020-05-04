@@ -161,6 +161,16 @@ sf::Vector2u Map::GetMapSize()
 	return m_mapSize;
 }
 
+float Map::GetGravity()
+{
+	return m_gravity;
+}
+
+TileInfo * Map::GetDefaultTile()
+{
+	return &m_defaultTile;
+}
+
 Tile * Map::GetTile(const unsigned int & x, const unsigned int & y)
 {
 	unsigned int coordinate = x * m_mapSize.x + y;

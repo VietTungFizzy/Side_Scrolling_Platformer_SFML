@@ -12,6 +12,7 @@ struct CollisionElement
 	TileInfo * m_CollisonTile;	
 };
 using Collisions = std::vector<CollisionElement>;
+bool SortCollisions(const CollisionElement & l_1, const CollisionElement & l_2);
 
 enum class EntityType { Base, Enemy, Player };
 enum class EntityState {
