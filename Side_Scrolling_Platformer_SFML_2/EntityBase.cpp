@@ -37,6 +37,11 @@ void EntityBase::SetState(const EntityState & l_state)
 	m_currentState = l_state;
 }
 
+EntityType EntityBase::GetType()
+{
+	return m_type;
+}
+
 void EntityBase::Move(float l_x, float l_y)
 {
 	m_position = m_positionOld;

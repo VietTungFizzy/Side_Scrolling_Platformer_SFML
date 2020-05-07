@@ -29,6 +29,7 @@ public:
 	void SetPosition(const sf::Vector2f & l_pos);
 	void SetSize(const float & l_x, const float & l_y);
 	void SetState(const EntityState & l_state);
+	EntityType GetType();
 	//other function
 	void Move(float l_x, float l_y);
 	void AddVelocity(float l_x, float l_y);
@@ -37,19 +38,23 @@ public:
 	void ApplyFriction(float l_x, float l_y);
 	virtual void Update(float l_dt);
 	virtual void Draw(sf::RenderWindow * l_window )=0;
+
+	//Method for what THIS entity does TO the l_collider entity
+	virtual void OnEntityCollision(EntityBase * l_collider, bool l_attack) = 0;
+
 protected:
 	//Methods
 	void UpdateAABB();
 	void CheckCollision();
 	void ResolveCollision();
 
-	//Method for what THIS entity does TO the l_collider entity
-	virtual void OnEntityCollision(EntityBase * l_collider, bool l_attack) =0;
+public:
+	unsigned int m_id; //Entity id in the entity manager
+	std::string m_name;
+	sf::FloatRect m_AABB; // The bounding box for collision
 
 protected:
-	std::string m_name;
 	EntityType m_type;
-	unsigned int m_id; //Entity id in the entity manager
 	sf::Vector2f m_position; // Current position
 	sf::Vector2f m_positionOld; //Position before entity moved
 	sf::Vector2f m_velocity; // Current velocity
@@ -59,7 +64,6 @@ protected:
 	sf::Vector2f m_friction; // Friction value
 	TileInfo * m_referenceTile; //Tile underneath entity
 	sf::Vector2f m_size; // Size of collision box
-	sf::FloatRect m_AABB; // The bounding box for collision
 	EntityState m_currentState; // Current entity state
 
 	//Flags for remembering axis collisions

@@ -10,7 +10,7 @@ public:
 	EntityManager(SharedContex * l_context, unsigned int l_maxEntity);
 	~EntityManager();
 
-	void Add(const EntityType & l_type, const std::string & l_name = "");
+	int Add(const EntityType & l_type, const std::string & l_name = "");
 	EntityBase * Find(unsigned int l_id);
 	EntityBase * Fine(const std::string & l_name);
 	void Remove(unsigned int l_id);

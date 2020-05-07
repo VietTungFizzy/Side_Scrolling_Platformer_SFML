@@ -2,7 +2,7 @@
 #include"Direction.h"
 #include"Anim_Base.h"
 
-using Animations = std::unordered_map<std::string, Anim_Base*>;
+using Animations = std::unordered_map<std::string, Anim_Base *>;
 class SpriteSheet
 {
 private: //Data members
