@@ -133,6 +133,7 @@
     <ClCompile Include="BaseState.cpp" />
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="EntityBase.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="EventManager.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main.cpp" />

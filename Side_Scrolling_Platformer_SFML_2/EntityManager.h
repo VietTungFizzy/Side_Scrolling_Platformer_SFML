@@ -23,7 +23,7 @@ public:
 	SharedContex * GetContext();
 private: //Methods
 	template<class T>
-	void RegisterEntity(const EntityType * l_type)
+	void RegisterEntity(const EntityType & l_type)
 	{
 		m_entityFactory[l_type] = [this] () -> EntityBase *
 		{
@@ -40,7 +40,7 @@ private: //Datas
 	EnemyTypes m_enemyTypes;
 	EntityFactory m_entityFactory;
 	SharedContex * m_context;
-	unsigned int m_counter;
+	unsigned int m_idCounter;
 	unsigned int m_maxEntity;
 
 	std::vector<unsigned int> m_entitiesToRemove;

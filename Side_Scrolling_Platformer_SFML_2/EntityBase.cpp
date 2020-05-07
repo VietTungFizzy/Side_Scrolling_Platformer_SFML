@@ -197,6 +197,58 @@ void EntityBase::CheckCollision()
 
 void EntityBase::ResolveCollision()
 {
+	if (!m_collisions.empty())
+	{
+		//Sort through collision element
+		//Prioritize collision element with biggest intersect area
+		std::sort(m_collisions.begin(), m_collisions.end(), SortCollisions);
+		Map * map = m_entityMgr->GetContext()->m_Map;
+		for (std::vector<CollisionElement>::value_type & itr : m_collisions)
+		{
+			//Re-check collision in case previous collision
+			//make entity no longer collide with current collision
+			if (!m_AABB.intersects(itr.m_tileBounds)) continue;
+
+			//Check collision is occure in which axis and which side
+			float xDiff = ((m_AABB.left + (m_AABB.width / 2)) -
+				(itr.m_tileBounds.left + (itr.m_tileBounds.width / 2)));
+			float yDiff = ((m_AABB.top + m_AABB.height / 2) - 
+				(itr.m_tileBounds.top + itr.m_tileBounds.height / 2));
+			float resolve = 0;
+			if (abs(xDiff) > abs(yDiff))
+			{
+				if (xDiff > 0)
+				{
+					resolve = (itr.m_tileBounds.left + TILE_SIZE) - m_AABB.left;
+				}
+				else
+				{
+					resolve = -((m_AABB.left + m_AABB.width) - itr.m_tileBounds.left);
+				}
+				Move(resolve, 0);
+				m_velocity.x = 0;
+				m_collidingX = true;
+			}
+			else 
+			{
+				if (yDiff > 0)
+				{
+					resolve = (itr.m_tileBounds.top + TILE_SIZE) - m_AABB.top;
+				}
+				else
+				{
+					resolve = -((m_AABB.top + m_AABB.height) - itr.m_tileBounds.top);
+				}
+				Move(0, resolve);
+				m_velocity.y = 0;
+				if (m_collidingY) continue;
+				m_referenceTile = itr.m_CollisonTile;
+				m_collidingY = true;
+			}
+		}
+		m_collisions.clear();
+	}
+	if (!m_collidingY) m_referenceTile = nullptr;
 }
 
 bool SortCollisions(const CollisionElement & l_1, const CollisionElement & l_2)

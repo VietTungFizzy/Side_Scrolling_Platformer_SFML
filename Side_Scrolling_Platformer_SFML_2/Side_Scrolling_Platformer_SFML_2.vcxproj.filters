@@ -93,6 +93,9 @@
     <ClCompile Include="EntityBase.cpp">
       <Filter>Source Files\System Extension\Entity</Filter>
     </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\System Extension\Manager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
