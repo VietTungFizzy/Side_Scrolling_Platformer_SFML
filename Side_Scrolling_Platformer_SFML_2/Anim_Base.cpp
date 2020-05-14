@@ -1,6 +1,5 @@
 #include "Anim_Base.h"
-#include"SpriteSheet.h"
-
+#include "SpriteSheet.h"
 
 Anim_Base::Anim_Base() :
 	m_frameCurrent(0), m_frameEnd(0),

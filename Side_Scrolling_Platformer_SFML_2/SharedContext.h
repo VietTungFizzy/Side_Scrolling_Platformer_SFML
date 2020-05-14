@@ -5,10 +5,10 @@
 #include"EntityManager.h"
 
 class Map;
-class SharedContex
+class SharedContext
 {
 public:
-	SharedContex() :m_window(nullptr),m_EventManager(nullptr), m_TextureManager(nullptr),
+	SharedContext() :m_window(nullptr),m_EventManager(nullptr), m_TextureManager(nullptr),
 					m_Map(nullptr), m_EntityManager(nullptr){}
 	Window * m_window;
 	EventManager * m_EventManager;

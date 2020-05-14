@@ -2,7 +2,7 @@
 #include"Player.h"
 #include"Enemy.h"
 
-EntityManager::EntityManager(SharedContex * l_context, unsigned int l_maxEntity) :
+EntityManager::EntityManager(SharedContext * l_context, unsigned int l_maxEntity) :
 	m_context(l_context), m_maxEntity(l_maxEntity), m_idCounter(0)
 {
 	LoadEnemyType("EnemyList.list");
@@ -94,7 +94,7 @@ void EntityManager::Purge()
 	m_idCounter = 0;
 }
 
-SharedContex * EntityManager::GetContext()
+SharedContext * EntityManager::GetContext()
 {
 	return m_context;
 }

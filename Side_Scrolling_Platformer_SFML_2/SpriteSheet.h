@@ -1,3 +1,4 @@
+#pragma once
 #include"SharedContext.h"
 #include"Direction.h"
 #include"Anim_Base.h"

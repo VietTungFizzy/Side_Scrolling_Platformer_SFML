@@ -7,7 +7,7 @@ using EnemyTypes = std::unordered_map<std::string,std::string>;
 class EntityManager
 {
 public:
-	EntityManager(SharedContex * l_context, unsigned int l_maxEntity);
+	EntityManager(SharedContext * l_context, unsigned int l_maxEntity);
 	~EntityManager();
 
 	int Add(const EntityType & l_type, const std::string & l_name = "");
@@ -20,7 +20,7 @@ public:
 
 	void Purge();
 
-	SharedContex * GetContext();
+	SharedContext * GetContext();
 private: //Methods
 	template<class T>
 	void RegisterEntity(const EntityType & l_type)
@@ -39,7 +39,7 @@ private: //Datas
 	EntityContainer m_entities;
 	EnemyTypes m_enemyTypes;
 	EntityFactory m_entityFactory;
-	SharedContex * m_context;
+	SharedContext * m_context;
 	unsigned int m_idCounter;
 	unsigned int m_maxEntity;
 

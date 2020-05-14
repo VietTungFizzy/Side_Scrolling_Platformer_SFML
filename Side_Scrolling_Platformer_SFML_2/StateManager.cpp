@@ -1,6 +1,6 @@
 #include "StateManager.h"
 
-StateManager::StateManager(SharedContex * l_Shared) : m_Shared(l_Shared)
+StateManager::StateManager(SharedContext * l_Shared) : m_Shared(l_Shared)
 {
 }
 

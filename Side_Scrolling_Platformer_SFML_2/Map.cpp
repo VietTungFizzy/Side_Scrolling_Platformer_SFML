@@ -1,6 +1,6 @@
 #include "Map.h"
 
-Map::Map(SharedContex * l_context) : 
+Map::Map(SharedContext * l_context) : 
 	m_context(l_context) , m_currentState(nullptr),
 	m_backgroundTexture("") ,m_gravity(0.0),
 	m_loadNextMap(false) , m_nextMapName(""),

@@ -1,29 +1,19 @@
 ﻿  Anim_Base.cpp
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(10): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_name': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_id': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2614: 'TileInfo': illegal member initialization: 'm_shared' is not a base or member
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(14): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(30): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(54): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(5): error C2065: 'Anim_Base': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(5): error C2059: syntax error: '>'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(19): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(19): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(37): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(37): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(19): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'l_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(22): error C2065: 'l_name': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(23): error C2065: 'l_id': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(26): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(45): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(63): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2143: syntax error: missing ';' before '*'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2238: unexpected token(s) preceding ';'
@@ -32,38 +22,26 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(42): error C2238: unexpected token(s) preceding ';'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(32): error C2760: syntax error: unexpected token '}', expected ';'
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(32): note: This diagnostic occurred in the compiler generated function 'void EntityManager::RegisterEntity(const EntityType &)'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(5): error C2371: 'Animations': redefinition; different basic types
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(5): note: see declaration of 'Animations'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(7): error C2011: 'SpriteSheet': 'class' type redefinition
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_base.h(4): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_base.cpp(70): warning C4018: '<=': signed/unsigned mismatch
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_base.cpp(70): warning C4018: '>=': signed/unsigned mismatch
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
+  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_base.cpp(69): warning C4018: '<=': signed/unsigned mismatch
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_base.cpp(69): warning C4018: '>=': signed/unsigned mismatch
   Anim_Directional.cpp
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(10): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_name': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_id': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2614: 'TileInfo': illegal member initialization: 'm_shared' is not a base or member
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(14): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(30): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(54): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(5): error C2065: 'Anim_Base': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(5): error C2059: syntax error: '>'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(19): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(19): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(37): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(37): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(19): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'l_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(22): error C2065: 'l_name': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(23): error C2065: 'l_id': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(26): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(45): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(63): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2143: syntax error: missing ';' before '*'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2238: unexpected token(s) preceding ';'
@@ -72,24 +50,15 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(42): error C2238: unexpected token(s) preceding ';'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(32): error C2760: syntax error: unexpected token '}', expected ';'
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(32): note: This diagnostic occurred in the compiler generated function 'void EntityManager::RegisterEntity(const EntityType &)'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(5): error C2371: 'Animations': redefinition; different basic types
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(5): note: see declaration of 'Animations'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(7): error C2011: 'SpriteSheet': 'class' type redefinition
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_base.h(4): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_directional.cpp(36): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_base.h(4): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_directional.cpp(39): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_base.h(4): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_directional.cpp(37): error C2661: 'sf::Rect<int>::Rect': no overloaded function takes 3 arguments
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_directional.cpp(44): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\anim_base.h(4): note: see declaration of 'SpriteSheet'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
+  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
   Character.cpp
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(4): error C2065: 'EntityBase': undeclared identifier
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(4): error C2059: syntax error: '>'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(5): error C2065: 'EntityType': undeclared identifier
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(5): error C2065: 'EntityBase': undeclared identifier
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(5): error C2059: syntax error: '>'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(13): error C2143: syntax error: missing ',' before '&'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(14): error C2143: syntax error: missing ';' before '*'
@@ -114,14 +83,14 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\character.cpp(4): error C2512: 'EntityBase': no appropriate default constructor available
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitybase.h(22): note: see declaration of 'EntityBase'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\character.cpp(4): error C2512: 'SpriteSheet': no appropriate default constructor available
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
+  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(7): note: see declaration of 'SpriteSheet'
   Enemy.cpp
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(4): error C2065: 'EntityBase': undeclared identifier
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(4): error C2059: syntax error: '>'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(5): error C2065: 'EntityType': undeclared identifier
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(5): error C2065: 'EntityBase': undeclared identifier
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(5): error C2059: syntax error: '>'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(13): error C2143: syntax error: missing ',' before '&'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(14): error C2143: syntax error: missing ';' before '*'
@@ -149,7 +118,7 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(5): error C2065: 'EntityType': undeclared identifier
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(5): error C2065: 'EntityBase': undeclared identifier
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(5): error C2059: syntax error: '>'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(13): error C2143: syntax error: missing ',' before '&'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(14): error C2143: syntax error: missing ';' before '*'
@@ -213,23 +182,23 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitybase.cpp(210): error C2027: use of undefined type 'EntityManager'
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitybase.h(21): note: see declaration of 'EntityManager'
   EntityManager.cpp
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(10): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_name': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_id': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2614: 'TileInfo': illegal member initialization: 'm_shared' is not a base or member
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(14): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(30): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(54): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(19): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'l_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(22): error C2065: 'l_name': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(23): error C2065: 'l_id': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(26): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(45): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(63): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2238: unexpected token(s) preceding ';'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2143: syntax error: missing ';' before '*'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2238: unexpected token(s) preceding ';'
@@ -341,23 +310,23 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.cpp(157): error C2027: use of undefined type 'Character'
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\character.h(3): note: see declaration of 'Character'
   Game.cpp
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(10): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_name': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_id': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2614: 'TileInfo': illegal member initialization: 'm_shared' is not a base or member
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(14): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(30): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(54): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(19): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'l_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(22): error C2065: 'l_name': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(23): error C2065: 'l_id': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(26): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(45): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(63): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2238: unexpected token(s) preceding ';'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2143: syntax error: missing ';' before '*'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2238: unexpected token(s) preceding ';'
@@ -366,46 +335,30 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(42): error C2238: unexpected token(s) preceding ';'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(32): error C2760: syntax error: unexpected token '}', expected ';'
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(32): note: This diagnostic occurred in the compiler generated function 'void EntityManager::RegisterEntity(const EntityType &)'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(7): error C2011: 'SpriteSheet': 'class' type redefinition
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(11): error C2664: 'Map::Map(const Map &)': cannot convert argument 1 from 'SharedContex *' to 'const Map &'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(11): note: Reason: cannot convert from 'SharedContex *' to 'const Map'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(11): error C2664: 'Map::Map(const Map &)': cannot convert argument 1 from 'SharedContext *' to 'const Map &'
+  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(11): note: Reason: cannot convert from 'SharedContext *' to 'const Map'
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(11): note: No constructor could take the source type, or constructor overload resolution was ambiguous
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(16): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(17): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(18): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(19): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(19): error C2027: use of undefined type 'Direction'
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(19): error C2065: 'Right': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(20): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(32): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\game.cpp(47): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
   Main.cpp
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(10): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_name': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_id': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2614: 'TileInfo': illegal member initialization: 'm_shared' is not a base or member
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(14): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(30): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(54): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(19): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'l_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(22): error C2065: 'l_name': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(23): error C2065: 'l_id': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(26): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(45): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(63): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2238: unexpected token(s) preceding ';'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2143: syntax error: missing ';' before '*'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2238: unexpected token(s) preceding ';'
@@ -414,8 +367,6 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(42): error C2238: unexpected token(s) preceding ';'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(32): error C2760: syntax error: unexpected token '}', expected ';'
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(32): note: This diagnostic occurred in the compiler generated function 'void EntityManager::RegisterEntity(const EntityType &)'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(7): error C2011: 'SpriteSheet': 'class' type redefinition
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
   Map.cpp
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
@@ -429,7 +380,7 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitybase.h(65): error C2143: syntax error: missing ';' before '*'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitybase.h(65): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitybase.h(65): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2143: syntax error: missing ';' before '*'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2238: unexpected token(s) preceding ';'
@@ -456,23 +407,21 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
               T=unsigned int
           ]
   SpriteSheet.cpp
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(10): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_name': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_id': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2614: 'TileInfo': illegal member initialization: 'm_shared' is not a base or member
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(14): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(30): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(54): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(19): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'l_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(22): error C2065: 'l_name': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(23): error C2065: 'l_id': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(26): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(45): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(63): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2143: syntax error: missing ';' before '*'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2238: unexpected token(s) preceding ';'
@@ -481,110 +430,35 @@ e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(42): error C2238: unexpected token(s) preceding ';'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(32): error C2760: syntax error: unexpected token '}', expected ';'
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(32): note: This diagnostic occurred in the compiler generated function 'void EntityManager::RegisterEntity(const EntityType &)'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(7): error C2011: 'SpriteSheet': 'class' type redefinition
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(4): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
+  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(6): error C2027: use of undefined type 'Direction'
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(6): error C2065: 'Right': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(7): error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(8): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(10): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(12): error C3861: 'ReleaseSheet': identifier not found
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(13): warning C4508: '{dtor}': function should return a value; 'void' return type assumed
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(15): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(17): error C2065: 'm_sprite': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(20): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(30): error C3861: 'ReleaseSheet': identifier not found
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(40): error C2065: 'm_textureName': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(47): error C2065: 'm_textureMgr': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(52): error C2065: 'm_textureName': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(53): error C2065: 'm_sprite': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(53): error C2065: 'm_textureMgr': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(57): error C2065: 'm_spriteSize': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(58): error C2065: 'm_spriteSize': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(58): error C3861: 'SetSpriteSize': identifier not found
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(62): error C2065: 'm_SpriteScale': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(63): error C2065: 'm_sprite': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(63): error C2065: 'm_SpriteScale': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(67): error C2065: 'm_animationType': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(73): error C2065: 'm_animations': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(80): error C2065: 'm_animationType': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(86): error C2065: 'm_animationType': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(90): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(94): error C2065: 'm_animations': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(96): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(97): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(98): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(104): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(106): error C2065: 'm_textureMgr': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(106): error C2065: 'm_textureName': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(107): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(108): error C2065: 'm_animations': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(110): error C2065: 'm_animations': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(111): error C2065: 'm_animations': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(116): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(118): error C2065: 'm_spriteSize': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(119): error C2065: 'm_sprite': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(119): error C2065: 'm_spriteSize': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(122): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(124): error C2065: 'm_spriteSize': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(127): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(129): error C2065: 'm_sprite': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(132): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(134): error C2065: 'm_direction': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(135): error C2065: 'm_direction': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(136): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(139): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(141): error C2065: 'm_direction': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(144): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(146): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(149): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(151): error C2065: 'm_animations': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(152): error C2065: 'm_animations': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(153): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(154): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(155): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(156): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(157): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(161): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(163): error C2065: 'm_animationCurrent': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(166): error C2027: use of undefined type 'SpriteSheet'
-  e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.h(6): note: see declaration of 'SpriteSheet'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(168): error C2065: 'm_sprite': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(119): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\spritesheet.cpp(119): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   StateManager.cpp
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(10): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(34): error C2238: unexpected token(s) preceding ';'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_name': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2065: 'l_id': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2614: 'TileInfo': illegal member initialization: 'm_shared' is not a base or member
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(14): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(30): error C2065: 'm_shared': undeclared identifier
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(54): error C2061: syntax error: identifier 'SharedContex'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2143: syntax error: missing ';' before '*'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(82): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(11): error C2238: unexpected token(s) preceding ';'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(19): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(21): error C2065: 'l_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(22): error C2065: 'l_name': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(23): error C2065: 'l_id': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(26): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(45): error C2065: 'm_shared': undeclared identifier
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(63): error C2061: syntax error: identifier 'SharedContext'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2143: syntax error: missing ';' before '*'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\map.h(91): error C2238: unexpected token(s) preceding ';'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): error C2011: 'Direction': 'enum' type redefinition
   e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\direction.h(2): note: see declaration of 'Direction'
-e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContex'
+e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(10): error C2061: syntax error: identifier 'SharedContext'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2143: syntax error: missing ';' before '*'
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
 e:\project\sfml\side_scrolling_platformer_sfml\side_scrolling_platformer_sfml_2\entitymanager.h(23): error C2238: unexpected token(s) preceding ';'

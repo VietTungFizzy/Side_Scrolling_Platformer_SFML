@@ -25,7 +25,7 @@ private:
 
 	Map * m_map;
 	StateManager m_StateMgr;
-	SharedContex m_Context;
+	SharedContext m_Context;
 
 	Window * m_window;
 	sf::Time m_time;

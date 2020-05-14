@@ -1,18 +1,32 @@
 #pragma once
 #include<SFML/Graphics.hpp>
-#include"SharedContext.h"
 #include"BaseState.h"
+#include"SharedContext.h"
 #define TILE_SIZE 32
 #define TILE_WIDTH 576
 #define TILE_HEIGHT 32
+
 struct TileInfo
 {
-	TileInfo(SharedContex * l_shared, std::string l_name = "", unsigned int l_id = 0) :
-		m_shared(l_shared) , m_textureName(l_name) , m_id(l_id)
+	SharedContext * m_shared; //Access to Texture Manager
+	sf::Sprite m_sprite;
+	unsigned int m_id;
+	std::string m_textureName;
+	sf::Vector2f m_friction;
+
+	bool m_deadly;
+
+	TileInfo(SharedContext * l_shared, std::string l_name = "", unsigned int l_id = 0)
 	{
+		m_shared = l_shared;
+		m_textureName = l_name;
+		m_id = l_id;
+
 		if (m_textureName == "") return;
 		TextureManager * textureMgr = m_shared->m_TextureManager;
 		if (textureMgr->RequireResource(m_textureName) == false) return;
+
+		m_sprite.setTexture(*textureMgr->GetResource(m_textureName));
 
 		int index_x = m_id % (TILE_WIDTH / TILE_SIZE);
 		int index_y = m_id / (TILE_WIDTH / TILE_SIZE);
@@ -23,21 +37,16 @@ struct TileInfo
 		spriteBound.height = TILE_SIZE;
 
 		m_sprite.setTextureRect(spriteBound);
-		m_sprite.setTexture(*textureMgr->GetResource(m_textureName));
+		
 	}
+
 	~TileInfo()
 	{
 		TextureManager * textureMgr = m_shared->m_TextureManager;
 		textureMgr->ReleaseResource(m_textureName);
 	}
 
-	SharedContex * m_shared; //Access to Texture Manager
-	sf::Sprite m_sprite;
-	unsigned int m_id;
-	std::string m_textureName;
-	sf::Vector2f m_friction;
-
-	bool m_deadly;
+	
 };
 struct Tile
 {
@@ -51,7 +60,7 @@ using TileSet = std::unordered_map<unsigned int, TileInfo*>; //unsigned int --> 
 class Map
 {
 public:
-	Map(SharedContex * l_context);
+	Map(SharedContext * l_context);
 	~Map();
 	void Update(float l_dt);
 	void Draw();
@@ -79,7 +88,7 @@ private:
 	std::string m_nextMapName;
 	std::string m_backgroundTexture;
 	std::string m_tileName;
-	SharedContex * m_context;
+	SharedContext * m_context;
 	BaseState * m_currentState;
 	bool m_loadNextMap;
 };

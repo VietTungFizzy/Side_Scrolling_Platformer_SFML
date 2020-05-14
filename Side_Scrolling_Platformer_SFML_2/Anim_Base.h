@@ -1,5 +1,5 @@
 #pragma once
-#include"SharedContext.h"
+#include<string>
 
 class SpriteSheet;
 using Frame = unsigned int;
@@ -22,15 +22,15 @@ protected:
 
 public:
 	std::string m_name;
-
 protected:
 	virtual void FrameStep() = 0;
 	virtual void CropSprite() = 0;
 	virtual void ReadIn(std::stringstream & l_stream) = 0;
+
 public:
 	Anim_Base();
 	virtual ~Anim_Base();
-
+	
 	void Play();
 	void Stop();
 	void Reset();

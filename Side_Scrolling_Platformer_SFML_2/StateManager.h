@@ -15,7 +15,7 @@ using StateFactory = std::unordered_map<StateType, std::function<BaseState*(void
 class StateManager
 {
 public:
-	StateManager(SharedContex * l_Shared);
+	StateManager(SharedContext * l_Shared);
 	~StateManager();
 
 	void SwitchState(const StateType & l_type);
@@ -27,7 +27,7 @@ public:
 	
 	bool HasState(const StateType & l_type);
 
-	SharedContex * GetSharedContext() { return m_Shared; }
+	SharedContext * GetSharedContext() { return m_Shared; }
 
 
 	void DeleteRemovingState();
@@ -42,7 +42,7 @@ private:
 		};
 	}
 private:
-	SharedContex * m_Shared;
+	SharedContext * m_Shared;
 	StateFactory m_Factory;
 	StateStack m_ToRemove;
 	StateContainer m_Container;
